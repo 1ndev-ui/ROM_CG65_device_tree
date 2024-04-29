@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_CG65.mk
+    $(LOCAL_DIR)/arrow_CG65.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_CG65-user \
-    lineage_CG65-userdebug \
-    lineage_CG65-eng
+    arrow_CG65-user \
+    arrow_CG65-userdebug \
+    arrow_CG65-eng
