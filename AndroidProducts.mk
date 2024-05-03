@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_CG65.mk
+    $(LOCAL_DIR)/bliss_CG65.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_CG65-user \
-    lineage_CG65-userdebug \
-    lineage_CG65-eng
+    bliss_CG65-user \
+    bliss_CG65-userdebug \
+    bliss_CG65-eng
