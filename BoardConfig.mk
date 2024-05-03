@@ -103,5 +103,5 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # include vendor/vortex/CG65/BoardConfigVendor.mk
 
 # Bliss Stuff
-PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+# PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
