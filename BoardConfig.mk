@@ -9,12 +9,10 @@ DEVICE_PATH := device/vortex/CG65
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    vendor \
-    system \
-    vbmeta_system \
     boot \
-    product \
-    vbmeta_vendor
+    system \
+    vendor
+
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
@@ -100,8 +98,6 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-# include vendor/vortex/CG65/BoardConfigVendor.mk
+include vendor/vortex/CG65/BoardConfigVendor.mk
 
-# Bliss Stuff
-# PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 

@@ -15,7 +15,7 @@ $(call inherit-product, vendor/bliss/config/common.mk)
 $(call inherit-product, device/vortex/CG65/device.mk)
 
 PRODUCT_DEVICE := CG65
-PRODUCT_NAME := lineage_CG65
+PRODUCT_NAME := bliss_CG65
 PRODUCT_BRAND := Vortex
 PRODUCT_MODEL := CG65
 PRODUCT_MANUFACTURER := vortex

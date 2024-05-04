@@ -96,4 +96,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-# $(call inherit-product, vendor/vortex/CG65/CG65-vendor.mk)
+$(call inherit-product, vendor/vortex/CG65/CG65-vendor.mk)
